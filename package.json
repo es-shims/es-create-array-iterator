@@ -12,7 +12,9 @@
 		]
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"version": "auto-changelog && git add CHANGELOG.md",
+		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
 	"repository": {
 		"type": "git",
@@ -34,5 +36,15 @@
 	"bugs": {
 		"url": "https://github.com/ljharb/es-create-array-iterator/issues"
 	},
-	"homepage": "https://github.com/ljharb/es-create-array-iterator#readme"
+	"homepage": "https://github.com/ljharb/es-create-array-iterator#readme",
+	"devDependencies": {
+		"auto-changelog": "^1.16.2"
+	},
+	"auto-changelog": {
+		"output": "CHANGELOG.md",
+		"template": "keepachangelog",
+		"unreleased": false,
+		"commitLimit": false,
+		"backfillLimit": false
+	}
 }
