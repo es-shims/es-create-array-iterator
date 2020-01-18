@@ -1,0 +1,38 @@
+{
+	"name": "es-create-array-iterator",
+	"version": "0.0.0",
+	"description": "EcmaScript's CreateArrayIterator abstract operation",
+	"main": "index.js",
+	"exports": {
+		".": [
+			{
+				"default": "./index.js"
+			},
+			"./index.js"
+		]
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/es-create-array-iterator.git"
+	},
+	"keywords": [
+		"createarrayiterator",
+		"array",
+		"iterator",
+		"keys",
+		"values",
+		"entries",
+		"ecmascript",
+		"es",
+		"abstract operation"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/es-create-array-iterator/issues"
+	},
+	"homepage": "https://github.com/ljharb/es-create-array-iterator#readme"
+}
