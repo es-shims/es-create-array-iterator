@@ -7,6 +7,7 @@
 		"complexity": [2, 11],
 		"new-cap": [2, {
 			"capIsNewExceptions": [
+				"CreateArrayIterator",
 				"CreateIterResultObject",
 				"CreateMethodProperty",
 				"DefinePropertyOrThrow",
@@ -24,4 +25,13 @@
 		"max-statements": [2, 20],
 		"operator-linebreak": [2, "before"],
 	},
+
+	"overrides": [
+		{
+			"files": "test/**",
+			"rules": {
+				"max-lines-per-function": 0,
+			},
+		},
+	],
 }
