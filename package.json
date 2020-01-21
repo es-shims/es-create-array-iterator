@@ -18,6 +18,7 @@
 		]
 	},
 	"scripts": {
+		"prepublish": "safe-publish-latest",
 		"pretest": "npm run lint",
 		"lint": "eslint .",
 		"tests-only": "node test",
@@ -57,6 +58,7 @@
 		"for-each": "^0.3.3",
 		"iterate-iterator": "^1.0.1",
 		"object-inspect": "^1.7.0",
+		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.0.0-next.4"
 	},
 	"auto-changelog": {
