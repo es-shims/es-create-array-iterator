@@ -15,7 +15,7 @@
 				"GetIntrinsic",
 				"HasOwnProperty",
 				"IsCallable",
-				"ObjectCreate",
+				"OrdinaryObjectCreate",
 				"ToLength",
 				"ToString",
 				"Type",

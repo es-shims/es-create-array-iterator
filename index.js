@@ -1,12 +1,12 @@
 'use strict';
 
-var GetIntrinsic = require('es-abstract/GetIntrinsic');
+var GetIntrinsic = require('get-intrinsic');
 var $TypeError = GetIntrinsic('%TypeError%');
 
-var callBind = require('es-abstract/helpers/callBind');
-var callBound = require('es-abstract/helpers/callBound');
-var ObjectCreate = require('es-abstract/2019/ObjectCreate');
-var Type = require('es-abstract/2019/Type');
+var callBind = require('call-bind');
+var callBound = require('call-bind/callBound');
+var OrdinaryObjectCreate = require('es-abstract/2020/OrdinaryObjectCreate');
+var Type = require('es-abstract/2020/Type');
 
 var SLOT = require('internal-slot');
 var hasSymbols = require('has-symbols')();
@@ -33,7 +33,7 @@ module.exports = function CreateArrayIterator(array, kind) {
 	if (kind === 'key+value' && $entries) {
 		return $entries(array);
 	}
-	var iterator = ObjectCreate($ArrayIteratorPrototype);
+	var iterator = OrdinaryObjectCreate($ArrayIteratorPrototype);
 	SLOT.set(iterator, '[[IteratedObject]]', array);
 	SLOT.set(iterator, '[[ArrayIteratorNextIndex]]', 0);
 	SLOT.set(iterator, '[[ArrayIterationKind]]', kind);

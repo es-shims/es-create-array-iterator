@@ -1,20 +1,20 @@
 'use strict';
 
-var GetIntrinsic = require('es-abstract/GetIntrinsic');
+var GetIntrinsic = require('get-intrinsic');
 var $original = GetIntrinsic('%ArrayIteratorPrototype%', true);
 
-var CreateMethodProperty = require('es-abstract/2019/CreateMethodProperty');
-var DefinePropertyOrThrow = require('es-abstract/2019/DefinePropertyOrThrow');
-var HasOwnProperty = require('es-abstract/2019/HasOwnProperty');
-var IsCallable = require('es-abstract/2019/IsCallable');
-var ObjectCreate = require('es-abstract/2019/ObjectCreate');
+var CreateMethodProperty = require('es-abstract/2020/CreateMethodProperty');
+var DefinePropertyOrThrow = require('es-abstract/2020/DefinePropertyOrThrow');
+var HasOwnProperty = require('es-abstract/2020/HasOwnProperty');
+var IsCallable = require('es-abstract/2020/IsCallable');
+var OrdinaryObjectCreate = require('es-abstract/2020/OrdinaryObjectCreate');
 var hasSymbols = require('has-symbols')();
 var hasToStringTag = hasSymbols && typeof Symbol.toStringTag === 'symbol';
 
 var Proto = $original;
 if (!Proto) {
 	var IteratorProto = {};
-	Proto = ObjectCreate(IteratorProto);
+	Proto = OrdinaryObjectCreate(IteratorProto);
 }
 
 if (!HasOwnProperty(Proto, 'next') || !IsCallable(Proto.next)) {

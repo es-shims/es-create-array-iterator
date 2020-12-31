@@ -1,13 +1,13 @@
 'use strict';
 
-var GetIntrinsic = require('es-abstract/GetIntrinsic');
+var GetIntrinsic = require('get-intrinsic');
 var $TypeError = GetIntrinsic('%TypeError%');
 
-var CreateIterResultObject = require('es-abstract/2019/CreateIterResultObject');
-var Get = require('es-abstract/2019/Get');
-var ToLength = require('es-abstract/2019/ToLength');
-var ToString = require('es-abstract/2019/ToString');
-var Type = require('es-abstract/2019/Type');
+var CreateIterResultObject = require('es-abstract/2020/CreateIterResultObject');
+var Get = require('es-abstract/2020/Get');
+var ToLength = require('es-abstract/2020/ToLength');
+var ToString = require('es-abstract/2020/ToString');
+var Type = require('es-abstract/2020/Type');
 
 var SLOT = require('internal-slot');
 var isTypedArray = require('is-typed-array');
