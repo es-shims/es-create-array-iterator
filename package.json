@@ -23,7 +23,7 @@
 		"lint": "eslint .",
 		"tests-only": "node test",
 		"test": "npm run tests-only",
-		"posttest": "npx aud",
+		"posttest": "aud --production",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
@@ -53,6 +53,7 @@
 	"homepage": "https://github.com/ljharb/es-create-array-iterator#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^15.1.0",
+		"aud": "^1.1.3",
 		"auto-changelog": "^1.16.2",
 		"eslint": "^6.8.0",
 		"for-each": "^0.3.3",
