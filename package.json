@@ -15,7 +15,8 @@
 				"default": "./ArrayIteratorPrototype/index.js"
 			},
 			"./ArrayIteratorPrototype/index.js"
-		]
+		],
+		"./package.json": "./package.json"
 	},
 	"scripts": {
 		"prepublish": "safe-publish-latest",
