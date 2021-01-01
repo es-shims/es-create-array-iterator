@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/ljharb/es-create-array-iterator/compare/v1.0.0...v1.0.1) - 2021-01-01
+
+### Commits
+
+- [Tests] migrate tests to Github Actions [`f4c3ba3`](https://github.com/ljharb/es-create-array-iterator/commit/f4c3ba3f6e3b6c4250b11ff0cabfef79327e214d)
+- [meta] do not publish github action workflow files [`df0cae2`](https://github.com/ljharb/es-create-array-iterator/commit/df0cae2bd56b5023201a8164f760a0520d0cd3be)
+- [Deps] update `es-abstract`; use `call-bind` and `get-intrinsic` where applicable [`fca2624`](https://github.com/ljharb/es-create-array-iterator/commit/fca2624be461e4ae313d45733791d77c9e9024e0)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `auto-changelog`, `object-inspect`, `tape` [`e9aa570`](https://github.com/ljharb/es-create-array-iterator/commit/e9aa5707ae3ee93c0bf0d97c326168bfab6427b7)
+- [Tests] run `nyc` on all tests; use `tape` runner [`fecc1b7`](https://github.com/ljharb/es-create-array-iterator/commit/fecc1b7e0885661c2982ee64b4d281d3ac403b04)
+- [actions] add "Allow Edits" workflow [`7c99492`](https://github.com/ljharb/es-create-array-iterator/commit/7c994922b0d869bafd998d376ea86a3241dbaa40)
+- [Deps] update `is-typed-array`, `typed-array-length` [`1841c9a`](https://github.com/ljharb/es-create-array-iterator/commit/1841c9ad7fe81014e122c382865e2ed146a059c6)
+- [actions] switch Automatic Rebase workflow to `pull_request_target` event [`e2463c1`](https://github.com/ljharb/es-create-array-iterator/commit/e2463c1a9a0cae53c775a66c4250655ce8b975e7)
+- [Fix] add missing `package.json` entrypoint in `exports` [`78da10c`](https://github.com/ljharb/es-create-array-iterator/commit/78da10ce37913c93cf50537f59f2863cf34dd068)
+- [meta] only run `aud` on prod deps [`4e7de89`](https://github.com/ljharb/es-create-array-iterator/commit/4e7de895b41338a76b6b6271cac10dfadcdfecfb)
+
 ## v1.0.0 - 2020-01-20
 
 ### Commits
