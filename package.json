@@ -30,7 +30,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ljharb/es-create-array-iterator.git"
+		"url": "git+https://github.com/es-shims/es-create-array-iterator.git"
 	},
 	"keywords": [
 		"createarrayiterator",
@@ -49,9 +49,9 @@
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/ljharb/es-create-array-iterator/issues"
+		"url": "https://github.com/es-shims/es-create-array-iterator/issues"
 	},
-	"homepage": "https://github.com/ljharb/es-create-array-iterator#readme",
+	"homepage": "https://github.com/es-shims/es-create-array-iterator#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^17.3.0",
 		"aud": "^1.1.3",
