@@ -13,9 +13,9 @@ var SLOT = require('internal-slot');
 var isTypedArray = require('is-typed-array');
 var typedArrayLength = require('typed-array-length');
 
-var SLOT_O = '[[IteratedObject]]';
-var SLOT_I = '[[ArrayIteratorNextIndex]]';
-var SLOT_K = '[[ArrayIterationKind]]';
+var SLOT_O = '[[IteratedArrayLike]]';
+var SLOT_I = '[[ArrayLikeNextIndex]]';
+var SLOT_K = '[[ArrayLikeIterationKind]]';
 
 module.exports = function next() {
 	var O = this;
@@ -27,7 +27,7 @@ module.exports = function next() {
 	) {
 		throw new $TypeError('%ArrayIteratorPrototype%.next requires that |this| be an Array Iterator instance');
 	}
-	var a = SLOT.get(O, '[[IteratedObject]]');
+	var a = SLOT.get(O, SLOT_O);
 	if (typeof a === 'undefined') {
 		return CreateIterResultObject(a, true);
 	}

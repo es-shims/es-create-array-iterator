@@ -34,8 +34,8 @@ module.exports = function CreateArrayIterator(array, kind) {
 		return $entries(array);
 	}
 	var iterator = OrdinaryObjectCreate($ArrayIteratorPrototype);
-	SLOT.set(iterator, '[[IteratedObject]]', array);
-	SLOT.set(iterator, '[[ArrayIteratorNextIndex]]', 0);
-	SLOT.set(iterator, '[[ArrayIterationKind]]', kind);
+	SLOT.set(iterator, '[[IteratedArrayLike]]', array);
+	SLOT.set(iterator, '[[ArrayLikeNextIndex]]', 0);
+	SLOT.set(iterator, '[[ArrayLikeIterationKind]]', kind);
 	return iterator;
 };
