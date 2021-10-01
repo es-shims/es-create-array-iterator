@@ -3,11 +3,11 @@
 var GetIntrinsic = require('get-intrinsic');
 var $TypeError = GetIntrinsic('%TypeError%');
 
-var CreateIterResultObject = require('es-abstract/2020/CreateIterResultObject');
-var Get = require('es-abstract/2020/Get');
-var ToLength = require('es-abstract/2020/ToLength');
-var ToString = require('es-abstract/2020/ToString');
-var Type = require('es-abstract/2020/Type');
+var CreateIterResultObject = require('es-abstract/2021/CreateIterResultObject');
+var Get = require('es-abstract/2021/Get');
+var ToLength = require('es-abstract/2021/ToLength');
+var ToString = require('es-abstract/2021/ToString');
+var Type = require('es-abstract/2021/Type');
 
 var SLOT = require('internal-slot');
 var isTypedArray = require('is-typed-array');

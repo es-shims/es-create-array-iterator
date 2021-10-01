@@ -75,11 +75,11 @@
 	},
 	"dependencies": {
 		"call-bind": "^1.0.2",
-		"es-abstract": "^1.18.0",
+		"es-abstract": "^1.19.0",
 		"get-intrinsic": "^1.1.1",
 		"has-symbols": "^1.0.2",
 		"internal-slot": "^1.0.3",
-		"is-typed-array": "^1.1.5",
+		"is-typed-array": "^1.1.8",
 		"typed-array-length": "^1.0.3"
 	},
 	"testling": {
