@@ -54,16 +54,16 @@
 	},
 	"homepage": "https://github.com/es-shims/es-create-array-iterator#readme",
 	"devDependencies": {
-		"@ljharb/eslint-config": "^17.5.1",
-		"aud": "^1.1.4",
-		"auto-changelog": "^2.2.1",
-		"eslint": "^7.24.0",
+		"@ljharb/eslint-config": "^18.0.0",
+		"aud": "^1.1.5",
+		"auto-changelog": "^2.3.0",
+		"eslint": "^7.32.0",
 		"for-each": "^0.3.3",
 		"iterate-iterator": "^1.0.1",
 		"nyc": "^10.3.2",
-		"object-inspect": "^1.10.2",
+		"object-inspect": "^1.11.0",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.2.2"
+		"tape": "^5.3.1"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
