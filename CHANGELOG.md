@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/es-create-array-iterator/compare/v1.0.2...v1.0.3) - 2021-10-01
+
+### Commits
+
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`e09b6b9`](https://github.com/es-shims/es-create-array-iterator/commit/e09b6b92a3aa48e6db7cb8bd0705f5bfb5bc3df0)
+- [Deps] update `es-abstract`, `is-typed-array` [`3da32d3`](https://github.com/es-shims/es-create-array-iterator/commit/3da32d31d85a3631ce36df6e83d988178a0e0a61)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `object-inspect`, `tape` [`3060d92`](https://github.com/es-shims/es-create-array-iterator/commit/3060d92c87eeffb2acf16692bb403556cbf899e1)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `object-inspect`, `tape` [`d64942d`](https://github.com/es-shims/es-create-array-iterator/commit/d64942d5d853c5e2020cfda6d4ba0705e80d4b0d)
+- [Deps] update `es-abstract`, `has-symbols`, `is-typed-array` [`29aa62b`](https://github.com/es-shims/es-create-array-iterator/commit/29aa62b63dc53e917d93e0b9b3714746a04ac781)
+- [meta] use `prepublishOnly` script for npm 7+ [`1b757dc`](https://github.com/es-shims/es-create-array-iterator/commit/1b757dc9fed4c629fe65ba33124a1ea6f3dc2c2b)
+
 ## [v1.0.2](https://github.com/es-shims/es-create-array-iterator/compare/v1.0.1...v1.0.2) - 2021-02-06
 
 ### Commits
