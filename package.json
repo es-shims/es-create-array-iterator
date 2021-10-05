@@ -59,7 +59,7 @@
 		"auto-changelog": "^2.3.0",
 		"eslint": "^7.32.0",
 		"for-each": "^0.3.3",
-		"iterate-iterator": "^1.0.1",
+		"iterate-iterator": "^1.0.2",
 		"nyc": "^10.3.2",
 		"object-inspect": "^1.11.0",
 		"safe-publish-latest": "^1.1.4",
