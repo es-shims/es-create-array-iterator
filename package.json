@@ -75,7 +75,7 @@
 	},
 	"dependencies": {
 		"call-bind": "^1.0.2",
-		"es-abstract": "^1.19.0",
+		"es-abstract": "^1.19.1",
 		"get-intrinsic": "^1.1.1",
 		"has-symbols": "^1.0.2",
 		"internal-slot": "^1.0.3",
