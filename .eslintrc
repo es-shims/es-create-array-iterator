@@ -23,7 +23,6 @@
 		}],
 		"id-length": 0,
 		"max-statements": [2, 20],
-		"operator-linebreak": [2, "before"],
 	},
 
 	"overrides": [
