@@ -1,6 +1,6 @@
 {
 	"name": "es-create-array-iterator",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "EcmaScript's CreateArrayIterator abstract operation",
 	"main": "index.js",
 	"exports": {

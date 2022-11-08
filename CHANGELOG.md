@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.4](https://github.com/es-shims/es-create-array-iterator/compare/v1.0.3...v1.0.4) - 2022-11-07
+
+### Commits
+
+- [actions] reuse common workflows [`5128a1e`](https://github.com/es-shims/es-create-array-iterator/commit/5128a1e1eda5d4ce9aeaaf082b519cda91f0b83b)
+- [meta] use `npmignore` to autogenerate an npmignore file [`43927a5`](https://github.com/es-shims/es-create-array-iterator/commit/43927a51b76eec7c89b6def351e06c7ee810d32a)
+- [Deps] update `es-abstract`, `get-intrinsic`, `has-symbols`, `is-typed-array`, `typed-array-length` [`3f35e41`](https://github.com/es-shims/es-create-array-iterator/commit/3f35e41cef9caaebdeb881a2ccb3ce381f4eebb9)
+- [meta] simplify `exports` [`93be252`](https://github.com/es-shims/es-create-array-iterator/commit/93be2527aab6227d3053a60b366e8cd150b0504b)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `object-inspect`, `tape` [`143a45d`](https://github.com/es-shims/es-create-array-iterator/commit/143a45ddab032483916f73112bd11b8980c82e06)
+- [actions] update rebase action to use reusable workflow [`60a0e10`](https://github.com/es-shims/es-create-array-iterator/commit/60a0e10bd7a88af6ff710673f199013c5e9f0059)
+- [actions] update codecov uploader [`9f74dc5`](https://github.com/es-shims/es-create-array-iterator/commit/9f74dc5ce686a4fcc728d0f7638613b48d44412a)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/asafe-publish-latest`, `tape` [`125168f`](https://github.com/es-shims/es-create-array-iterator/commit/125168f534f3a75f9c6904de5ad5b973bbc661a7)
+- [Deps] update `es-abstract` [`c2d18d0`](https://github.com/es-shims/es-create-array-iterator/commit/c2d18d0f31fc5fe255d08d37294edb8354e90d23)
+- [Dev Deps] update `iterate-iterator` [`7a97ff1`](https://github.com/es-shims/es-create-array-iterator/commit/7a97ff13aa42883e27f8bb6157d9099f1afe09b3)
+
 ## [v1.0.3](https://github.com/es-shims/es-create-array-iterator/compare/v1.0.2...v1.0.3) - 2021-10-01
 
 ### Commits
