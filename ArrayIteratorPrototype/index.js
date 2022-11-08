@@ -3,11 +3,11 @@
 var GetIntrinsic = require('get-intrinsic');
 var $original = GetIntrinsic('%ArrayIteratorPrototype%', true);
 
-var CreateMethodProperty = require('es-abstract/2021/CreateMethodProperty');
-var DefinePropertyOrThrow = require('es-abstract/2021/DefinePropertyOrThrow');
-var HasOwnProperty = require('es-abstract/2021/HasOwnProperty');
-var IsCallable = require('es-abstract/2021/IsCallable');
-var OrdinaryObjectCreate = require('es-abstract/2021/OrdinaryObjectCreate');
+var CreateMethodProperty = require('es-abstract/2022/CreateMethodProperty');
+var DefinePropertyOrThrow = require('es-abstract/2022/DefinePropertyOrThrow');
+var HasOwnProperty = require('es-abstract/2022/HasOwnProperty');
+var IsCallable = require('es-abstract/2022/IsCallable');
+var OrdinaryObjectCreate = require('es-abstract/2022/OrdinaryObjectCreate');
 var hasSymbols = require('has-symbols')();
 var hasToStringTag = hasSymbols && typeof Symbol.toStringTag === 'symbol';
 
