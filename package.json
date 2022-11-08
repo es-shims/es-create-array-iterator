@@ -4,18 +4,8 @@
 	"description": "EcmaScript's CreateArrayIterator abstract operation",
 	"main": "index.js",
 	"exports": {
-		".": [
-			{
-				"default": "./index.js"
-			},
-			"./index.js"
-		],
-		"./ArrayIteratorPrototype": [
-			{
-				"default": "./ArrayIteratorPrototype/index.js"
-			},
-			"./ArrayIteratorPrototype/index.js"
-		],
+		".": "./index.js",
+		"./ArrayIteratorPrototype": "./ArrayIteratorPrototype/index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
