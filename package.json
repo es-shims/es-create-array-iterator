@@ -73,6 +73,7 @@
 		"has-symbols": "^1.0.3",
 		"internal-slot": "^1.0.3",
 		"is-typed-array": "^1.1.10",
+		"iterator.prototype": "^1.0.0",
 		"typed-array-length": "^1.0.4"
 	},
 	"testling": {

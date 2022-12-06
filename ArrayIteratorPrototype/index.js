@@ -13,7 +13,7 @@ var hasToStringTag = hasSymbols && typeof Symbol.toStringTag === 'symbol';
 
 var Proto = $original;
 if (!Proto) {
-	var IteratorProto = {};
+	var IteratorProto = require('iterator.prototype'); // eslint-disable-line global-require
 	Proto = OrdinaryObjectCreate(IteratorProto);
 }
 
