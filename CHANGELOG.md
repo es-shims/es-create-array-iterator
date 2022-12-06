@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.5](https://github.com/es-shims/es-create-array-iterator/compare/v1.0.4...v1.0.5) - 2022-12-05
+
+### Commits
+
+- [Refactor] use `iterator.prototype` [`c988fc6`](https://github.com/es-shims/es-create-array-iterator/commit/c988fc61d1650f2a72bed1e1125d36a6b5144098)
+
 ## [v1.0.4](https://github.com/es-shims/es-create-array-iterator/compare/v1.0.3...v1.0.4) - 2022-11-07
 
 ### Commits
