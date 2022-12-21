@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.6](https://github.com/es-shims/es-create-array-iterator/compare/v1.0.5...v1.0.6) - 2022-12-21
+
+### Commits
+
+- [Refactor] use `es-set-totringtag` [`93d657e`](https://github.com/es-shims/es-create-array-iterator/commit/93d657e7e5dcc8e0d3f76593cbd6fdc64cd28454)
+- [Deps] update `es-abstract`, `internal-slot`, `iterator.prototype` [`15ed6b7`](https://github.com/es-shims/es-create-array-iterator/commit/15ed6b7268ce31064bba8285710ece18572d0acd)
+- [Dev Deps] update `aud` [`55fe413`](https://github.com/es-shims/es-create-array-iterator/commit/55fe4130dc8e725fb29c459d1af5aee8da515793)
+
 ## [v1.0.5](https://github.com/es-shims/es-create-array-iterator/compare/v1.0.4...v1.0.5) - 2022-12-05
 
 ### Commits
