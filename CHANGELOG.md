@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.7](https://github.com/es-shims/es-create-array-iterator/compare/v1.0.6...v1.0.7) - 2023-09-01
+
+### Commits
+
+- [Deps] update `es-abstract`, `es-set-tostringtag`, `get-intrinsic`, `internal-slot`, `is-typed-array`, `iterator.prototype` [`963d83b`](https://github.com/es-shims/es-create-array-iterator/commit/963d83b93faf51afff62ad921d5be343f6bae228)
+- [readme] add badges [`4fa1f11`](https://github.com/es-shims/es-create-array-iterator/commit/4fa1f1141275321b8ed4c79782a8f1dcf8b26494)
+- [Deps] update `@ljharb/eslint-config`, `aud`, `object-inspect`, `tape` [`ad73708`](https://github.com/es-shims/es-create-array-iterator/commit/ad73708a3adeef2d382cf24cdbb507f13f6c54c3)
+
 ## [v1.0.6](https://github.com/es-shims/es-create-array-iterator/compare/v1.0.5...v1.0.6) - 2022-12-21
 
 ### Commits
