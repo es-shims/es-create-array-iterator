@@ -5,8 +5,8 @@ var $TypeError = GetIntrinsic('%TypeError%');
 
 var callBind = require('call-bind');
 var callBound = require('call-bind/callBound');
-var OrdinaryObjectCreate = require('es-abstract/2022/OrdinaryObjectCreate');
-var Type = require('es-abstract/2022/Type');
+var OrdinaryObjectCreate = require('es-abstract/2023/OrdinaryObjectCreate');
+var Type = require('es-abstract/2023/Type');
 
 var SLOT = require('internal-slot');
 var hasSymbols = require('has-symbols')();

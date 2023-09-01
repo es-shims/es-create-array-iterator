@@ -3,10 +3,10 @@
 var GetIntrinsic = require('get-intrinsic');
 var $original = GetIntrinsic('%ArrayIteratorPrototype%', true);
 
-var CreateMethodProperty = require('es-abstract/2022/CreateMethodProperty');
-var HasOwnProperty = require('es-abstract/2022/HasOwnProperty');
-var IsCallable = require('es-abstract/2022/IsCallable');
-var OrdinaryObjectCreate = require('es-abstract/2022/OrdinaryObjectCreate');
+var CreateMethodProperty = require('es-abstract/2023/CreateMethodProperty');
+var HasOwnProperty = require('es-abstract/2023/HasOwnProperty');
+var IsCallable = require('es-abstract/2023/IsCallable');
+var OrdinaryObjectCreate = require('es-abstract/2023/OrdinaryObjectCreate');
 var setToStringTag = require('es-set-tostringtag');
 
 var Proto = $original;
