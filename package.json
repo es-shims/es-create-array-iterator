@@ -67,14 +67,14 @@
 		"hideCredit": true
 	},
 	"dependencies": {
-		"call-bind": "^1.0.2",
-		"es-abstract": "^1.22.1",
-		"es-set-tostringtag": "^2.0.1",
-		"get-intrinsic": "^1.2.1",
+		"call-bind": "^1.0.5",
+		"es-abstract": "^1.22.3",
+		"es-set-tostringtag": "^2.0.2",
+		"get-intrinsic": "^1.2.3",
 		"has-symbols": "^1.0.3",
-		"internal-slot": "^1.0.5",
-		"is-typed-array": "^1.1.12",
-		"iterator.prototype": "^1.1.1",
+		"internal-slot": "^1.0.6",
+		"is-typed-array": "^1.1.13",
+		"iterator.prototype": "^1.1.2",
 		"typed-array-length": "^1.0.4"
 	},
 	"testling": {
