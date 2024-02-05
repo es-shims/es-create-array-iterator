@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.8](https://github.com/es-shims/es-create-array-iterator/compare/v1.0.7...v1.0.8) - 2024-02-04
+
+### Commits
+
+- [Deps] update `call-bind`, `es-abstract`, `es-set-tostringtag`, `get-intrinsic`, `internal-slot`, `is-typed-array`, `iterator.prototype` [`715b013`](https://github.com/es-shims/es-create-array-iterator/commit/715b01328342b8076581e97d6aff3d801b2b6af0)
+- [Dev Deps] update `aud`, `npmignore`, `object-inspect`, `tape` [`1bec162`](https://github.com/es-shims/es-create-array-iterator/commit/1bec1620d32781dc00d1fcc682d414904460ce44)
+- [Refactor] use `es-errors` instead of `get-intrinsic` where possible [`25b4d38`](https://github.com/es-shims/es-create-array-iterator/commit/25b4d381daabae0c63afff337ff28b0ebdb6b8e2)
+
 ## [v1.0.7](https://github.com/es-shims/es-create-array-iterator/compare/v1.0.6...v1.0.7) - 2023-09-01
 
 ### Commits
