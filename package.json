@@ -69,6 +69,7 @@
 	"dependencies": {
 		"call-bind": "^1.0.5",
 		"es-abstract": "^1.22.3",
+		"es-errors": "^1.0.0",
 		"es-set-tostringtag": "^2.0.2",
 		"get-intrinsic": "^1.2.3",
 		"has-symbols": "^1.0.3",
